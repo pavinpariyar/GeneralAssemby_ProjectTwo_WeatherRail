@@ -13,10 +13,13 @@ $tube-line-colors: (
   "Central": #E32017,
   "Circle": #FFD300,
   "District": #00782A,
-  "Hammersmith & City": #b24b65,
+  "Hammersmith-City": #b24b65,
   "Jubilee": #A0A5A9,
   "Metropolitan": #9B0056,
   "Northern": #000000,
+  "Piccadilly": #003688,
+  "Victoria": #0098D4,
+  "Waterloo-City": #95CDBA
   // Add more lines as needed
 );
 
@@ -61,11 +64,9 @@ header {
   color: #ffffff;
   font-weight: bold;
 
-  &.Bakerloo, &.Central, &.Circle, &.District, &.Hammersmith-City, &.Jubilee, &.Metropolitan, &.Northern {
-    @each $name, $color in $tube-line-colors {
+  @each $name, $color in $tube-line-colors {
       &.#{$name} {
         background-color: $color;
       }
     }
   }
-}

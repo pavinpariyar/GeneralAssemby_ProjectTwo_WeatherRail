@@ -20,7 +20,7 @@ const Weather: React.FC = () => {
   // Render your weather data here
   return (
     <div>
-      <h2>Weather in {weather.name}</h2>
+      <h2 className = "title"> Weather in {weather.name}</h2>
       <p>Temperature: {weather.main.temp}°C</p>
       <p>Condition: {weather.weather[0].description}</p>
       <img src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`} alt="Weather icon" />
