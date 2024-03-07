@@ -1,12 +1,71 @@
-
-
-
-
-
-
-
-// ! example on how to customize, skip to section "Add your own Bulma styles":
+/* 
 // https://bulma.io/documentation/customize/with-sass-cli/
 
-// ? Import bulma, all customizations should live above this line.
+// ? Import bulma, all customizations should live above this line. */
+
+$primary: #FFD700;
+
+
 @import "../../node_modules/bulma/bulma.sass";
+// Custom Tube Line Colors
+$tube-line-colors: (
+  "Bakerloo": #B36305,
+  "Central": #E32017,
+  "Circle": #FFD300,
+  "District": #00782A,
+  "Hammersmith & City": #b24b65,
+  "Jubilee": #A0A5A9,
+  "Metropolitan": #9B0056,
+  "Northern": #000000,
+  // Add more lines as needed
+);
+
+// Base styling
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+header {
+  background-color: $primary; // Use the Bulma $primary color for consistency
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+// Layout styles for side-by-side display
+.columns {
+  @media (min-width: 769px) { // Adjust based on when you want the layout to kick in
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+.column {
+  flex: 1;
+
+  &:first-child {
+    margin-right: 10px; // Space between columns
+  }
+}
+
+// Tube status styles
+.tube-line {
+  padding: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+
+  &.Bakerloo, &.Central, &.Circle, &.District, &.Hammersmith-City, &.Jubilee, &.Metropolitan, &.Northern {
+    @each $name, $color in $tube-line-colors {
+      &.#{$name} {
+        background-color: $color;
+      }
+    }
+  }
+}

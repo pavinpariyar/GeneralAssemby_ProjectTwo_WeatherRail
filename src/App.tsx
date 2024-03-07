@@ -1,9 +1,27 @@
-import React from "react"
+import React from 'react';
+import Header from './components/Header';
+import Weather from './components/Weather';
+import TubeStatusSection from './components/TubeStatusSection';
+import './styles/main.scss';
 
-function App(){
-  
 
-  return <h1>Hello world</h1>
-}
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <div className="columns">
+        <div className="column">
+          <Weather />
+        </div>
+        <div className="column">
+          <TubeStatusSection />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default App
+
+
+
+export default App;
