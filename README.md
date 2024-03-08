@@ -11,8 +11,11 @@
 │   ├── main.tsx
 │   ├── components
 │   │   ├── Header.tsx
+│   │   ├── Navbar.tsx
 │   │   ├── TubeStatusSection.tsx
 │   │   └── Weather.tsx
+│   ├── pages
+│   │   └── AboutUs.tsx
 │   ├── services
 │   │   ├── tubeApi.ts
 │   │   └── weatherApi.ts

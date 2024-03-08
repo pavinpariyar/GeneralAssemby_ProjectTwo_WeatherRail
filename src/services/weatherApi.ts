@@ -112,8 +112,3 @@ export const fetchFiveDayForecast = async (city: string): Promise<ForecastData> 
     }
   }
 }
-
-
-
-
-

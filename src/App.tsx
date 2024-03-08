@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Weather from './components/Weather';
 import TubeStatusSection from './components/TubeStatusSection';
 import Navbar from './components/Navbar';
-import AboutUs from './pages/AboutUs'
+import AboutUs from './pages/AboutUs';
 import './styles/main.scss';
 
 
