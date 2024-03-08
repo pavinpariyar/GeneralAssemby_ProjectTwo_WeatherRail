@@ -8,17 +8,17 @@
 
 @import "../../node_modules/bulma/bulma.sass";
 
-$primary-color: #4a90e2;
-$secondary-color: #ffbd4a; // A warm yellow for accents and highlights
+$primary-color: #00d1b2;
+$secondary-color: #000000; // A warm yellow for accents and highlights
 
 
 h1, h2, h3 {
   color: $primary-color;
 }
 
-.header-gradient {
-  // background: linear-gradient(to bottom right, #667eea, #764ba2);
-}
+// .header-gradient {
+//   // background: linear-gradient(to bottom right, #667eea, #764ba2);
+// }
 
 .mb-8 {
   margin-bottom: 2rem; // Adjust as needed
@@ -33,10 +33,7 @@ h1, h2, h3 {
   
 }
 
-// .icon-large {
-//   width: 3em; 
-//   height: 3em;
-// }
+
 
 .input {
   border-radius: 100px;
@@ -143,7 +140,7 @@ header {
 
   .forecast-container {
     display: flex;
-    justify-content: space-around; // Adjust this to fit your design needs
+    justify-content: space-around; 
     flex-wrap: wrap;
   }
 
@@ -153,13 +150,13 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: white;
+    background-color: $primary-color;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .icon-large {
-    width: 100px; // Adjust size as needed
+    width: 100px; 
     height: auto;
     max-width: 100%; 
     max-height: 100%;
@@ -177,4 +174,30 @@ header {
   .status-hover:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-burger.burger span {
+    background-color: #00d1b2;
+    height: 4px;
+  }
+
+
+
+  .navbar-burger.burger span:not(:last-child) {
+    margin-bottom: 100px; 
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px; 
+  }
+
+
+  ::-webkit-scrollbar-track {
+    background: #f2f3f5; /* color of the tracking area */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $primary-color; 
+    border-radius: 20px; 
+    border: 3px solid $secondary-color; 
   }
