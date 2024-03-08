@@ -1,6 +1,6 @@
 # Project 2 - Weather Rail 🚇☀️
 
-![Weather Rail](https://api.netlify.com/api/v1/badges/08792cf9-5ea9-44be-a722-82260accddd3/deploy-status)](https://app.netlify.com/sites/weatherrail/deploys)](https://main--weatherrail.netlify.app/)
+![Weather Rail](https://api.netlify.com/api/v1/badges/08792cf9-5ea9-44be-a722-82260accddd3/deploy-status)](https://main--weatherrail.netlify.app/)
 
 ## Table of Contents
 
