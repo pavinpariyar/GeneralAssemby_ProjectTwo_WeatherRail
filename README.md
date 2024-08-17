@@ -14,7 +14,7 @@
 
 ## Description 📝
 
-This React application provides real-time 🕒 tube status and weather 🌤 information for London. It's designed with a clean and user-friendly interface, making it easy for users to access the data they need.
+Weather Rail is a real-time platform providing up-to-date tube status and weather information for London. It features a user-friendly, responsive interface that ensures seamless access to essential data across devices. The application is built using React and TypeScript, with a design powered by Bulma CSS, and leverages APIs like Axios and Fetch for data handling.
 
 ## Features ✨
 
@@ -25,21 +25,12 @@ This React application provides real-time 🕒 tube status and weather 🌤 info
 - Dynamic CSS animations for a lively UI 💫.
 
 ## Tech Stack 🛠️
-
-![React](https://reactjs.org/logo-og.png) **React** - A JavaScript library for building user interfaces.
-
-![TypeScript](https://www.typescriptlang.org/icons/icon-48x48.png) 
-**TypeScript** - A typed superset of JavaScript, enhancing the development experience.
-
-**Axios** - A promise-based HTTP client for browser and Node.js.
-
-![Bulma](https://bulma.io/images/bulma-logo.png) **Bulma CSS** - A modern CSS framework based on Flexbox.
-
- **React Router** - A collection of navigational components for React apps.
-
-**Fetch API** - A modern interface for HTTP requests in JavaScript.
-
-
+- React.js
+- TypeScript
+- Axios
+- Bulma CSS
+- React Router
+- Fetch API
 
 ## Project Structure 🗂️
 
@@ -73,18 +64,26 @@ To get this project up and running on your local machine, follow these steps:
 
 1. **Clone the repository:**
 
+   ```bash
+   git clone git@github.com:pavinpariyar/GeneralAssemby_ProjectTwo_WeatherRail.git
+   cd <your-repository-folder>
+   ```
+
+2. **Install the dependencies:**
+
 ```bash
-git clone git@github.com:pavinpariyar/GeneralAssemby_ProjectTwo_WeatherRail.git
+npm install
 ```
 
-2. **Start the development server:**
+3. **Start the development server:**
 
 ```bash
 npm run start
 ```
 
-3. **Build the project for production:**
+4. **Build the project for production:**
 
 ```bash
 npm run build
 ```
+
