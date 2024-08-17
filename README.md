@@ -74,7 +74,7 @@ To get this project up and running on your local machine, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone git@github.com:pavinpariyar/project-2.git
+git clone git@github.com:pavinpariyar/GeneralAssemby_ProjectTwo_WeatherRail.git
 ```
 
 2. **Start the development server:**
