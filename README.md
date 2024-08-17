@@ -1,10 +1,10 @@
-# Project 2 - Weather Rail 🚇☀️
+# Project Two - Weather Rail 🌡️🚇☀️
 
 ![Weather Rail](https://api.netlify.com/api/v1/badges/08792cf9-5ea9-44be-a722-82260accddd3/deploy-status)](https://main--weatherrail.netlify.app/)
 
 ## Table of Contents
 
-- [Project 2 - Weather Rail 🚇☀️](#project-2---weather-rail-️)
+- [Project Two - Weather Rail 🚇☀️](#project-Two---weather-rail-️)
   - [Table of Contents](#table-of-contents)
   - [Description 📝](#description-)
   - [Features ✨](#features-)
